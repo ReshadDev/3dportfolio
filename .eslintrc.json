@@ -1,0 +1,16 @@
+{
+    "plugins": ["jsx"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": [2, "never"],
+        "jsx-quotes": [2, "prefer-double"],
+        "quotes": ["error", "single"]
+    },
+    "extends": "eslint:recommended"
+}
